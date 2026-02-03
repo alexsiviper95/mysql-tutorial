@@ -1,0 +1,7 @@
+# Configurazione database MySQL per la tua web app
+
+MYSQL_HOST = 'mysql-21d9f0f9-iisgalvanimi-8e81.b.aivencloud.com'
+MYSQL_PORT = 13692
+MYSQL_USER = 'avnadmin'
+MYSQL_PASSWORD = 'AVNS_xogXO8BBfCghY5AJ2nn'
+MYSQL_DB = 'defaultdb'

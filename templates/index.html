@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Database MySQL</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            margin: 40px auto;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background: #eee;
+        }
+    </style>
+</head>
+<body>
+
+<h2 style="text-align:center;">Utenti dal Database MySQL</h2>
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Nome</th>
+        <th>Email</th>
+    </tr>
+
+    {% for utente in utenti %}
+    <tr>
+        <td>{{ utente[0] }}</td>
+        <td>{{ utente[1] }}</td>
+        <td>{{ utente[2] }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+</body>
+</html>
